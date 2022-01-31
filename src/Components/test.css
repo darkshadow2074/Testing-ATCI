@@ -1,0 +1,14 @@
+.yellow1{
+    background-image: url('../images/Rectangle84.svg');
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    /* padding: 10px; */
+    /* height: 32%; */
+    /* z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end; */
+    /* top: -28%; */
+}

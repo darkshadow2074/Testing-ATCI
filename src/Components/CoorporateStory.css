@@ -1,0 +1,651 @@
+@font-face {
+  font-family: "graphicblack";
+  src: url("../Fonts/Graphik-Black.ttf");
+}
+
+@font-face {
+  font-family: "graphicbold";
+  src: url("../Fonts/Graphik-Bold.ttf");
+}
+
+@font-face {
+  font-family: "graphicmedium";
+  src: url("../Fonts/Graphik-Medium.ttf");
+}
+
+@font-face {
+  font-family: "graphicregular";
+  src: url("../Fonts/Graphik-Regular.ttf");
+}
+
+.mainContainer {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.yearDiv {
+  width: 25%;
+}
+
+.yearStyle {
+  color: purple;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.yearColumnText {
+  padding-left: 20px;
+  margin-left: 20px;
+  font-family: "graphicregular";
+}
+
+.gatewayofIndiaDiv {
+  width: 30%;
+}
+
+.gatewayofIndiaDiv #firstImage {
+  width: 100%;
+  z-index: 3;
+  position: relative;
+  top: -1rem;
+  left: -2rem;
+}
+
+.gatewayofIndiaDiv #secondImage {
+  width: 5%;
+  position: absolute;
+  top: 0rem;
+  left: 35rem;
+}
+
+.ketihDiv {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  position: relative;
+  left: -10%;
+  /* top: -20%; */
+}
+
+.keithBackgroundCircle {
+  width: 25%;
+}
+
+.keithimagediv {
+  width: 5%;
+}
+
+@media screen and (max-width: 1350px) {
+  .yellow {
+    background-image: url("../images/Rectangle84.svg");
+    position: relative;
+    padding: 10px;
+    /* height: 32%; */
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    top: -30%;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .yellow {
+    background-image: url("../images/Rectangle84.svg");
+    position: relative;
+    padding: 10px;
+    /* height: 32%; */
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    top: -22%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .bgcircle {
+    background-image: url("../images/Ellipse26.svg");
+    background-size: "100px";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: 1;
+    width: 74%;
+    position: relative;
+    left: -48%;
+    top: 10%;
+    border: 5px solid #bb80ff;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+  .bgcircle {
+    background-image: url("../images/Ellipse26.svg");
+    background-size: "100px";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: 1;
+    width: 74%;
+    position: relative;
+    left: -48%;
+    top: 9%;
+    border: 5px solid #bb80ff;
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 1450px) and (max-width: 1500px) {
+  .bgcircle {
+    background-image: url("../images/Ellipse26.svg");
+    background-size: "100px";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: 1;
+    width: 74%;
+    position: relative;
+    left: -48%;
+    top: 6%;
+    border: 2px soild black;
+    border: 5px solid #bb80ff;
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .bgcircle {
+    background-image: url("../images/Ellipse26.svg");
+    background-size: "100px";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: 1;
+    width: 74%;
+    position: relative;
+    left: -48%;
+    top: 5%;
+    border: 5px solid #bb80ff;
+    border-radius: 50%;
+  }
+  
+  
+}
+
+
+@media screen and (max-width: 1400px) {
+  .keithimagediv img {
+    position: absolute;
+    width: 16.5%;
+    left: 60.2%;
+    top: 3%;
+    z-index: 2;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+  .keithimagediv img {
+    position: absolute;
+    width: 16.5%;
+    left: 60.25%;
+    top: 3%;
+    z-index: 2;
+  }
+}
+@media screen and (min-width: 1450px) and (max-width: 1500px) {
+  .keithimagediv img {
+    position: absolute;
+    width: 16.5%;
+    left: 60.25%;
+    top: 2%;
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .keithimagediv img {
+    position: absolute;
+    width: 16.5%;
+    left: 60.2%;
+    top: 0.5%;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 1315px) {
+  .bigcircleimage {
+    width: 18%;
+    z-index: 2;
+    position: absolute;
+    left: 46%;
+    top: 43%;
+  }
+}
+@media screen and (min-width: 1315px) and (max-width: 1350px) {
+  .bigcircleimage {
+    width: 18%;
+    z-index: 2;
+    position: absolute;
+    left: 46%;
+    top: 40%;
+  }
+}
+@media screen and (min-width: 1350px) and (max-width: 1400px) {
+  .bigcircleimage {
+    width: 18%;
+    z-index: 2;
+    position: absolute;
+    left: 46%;
+    top: 37%;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+  .bigcircleimage {
+    width: 18%;
+    z-index: 2;
+    position: absolute;
+    left: 46%;
+    top: 35%;
+  }
+}
+@media screen and (min-width: 1450px) and (max-width: 1500px) {
+  .bigcircleimage {
+    width: 18%;
+    z-index: 2;
+    position: absolute;
+    left: 45%;
+    top: 33%;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .bigcircleimage {
+    width: 18%;
+    z-index: 2;
+    position: absolute;
+    left: 45%;
+    top: 35%;
+  }
+}
+
+.rightorangebox {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 3;
+}
+
+.dashedline p {
+  text-align: right;
+  font-family: "graphicregular";
+}
+
+.orangeboximages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.orangeboximages img {
+  width: 5rem;
+}
+
+.belowMumabiRectangle {
+  display: flex;
+  position: relative;
+  top: -6rem;
+  left: 10rem;
+}
+
+.yellowRectangle img {
+  border: 4px solid #bb80ff;
+  position: relative;
+  left: -4%;
+  width: 20%;
+}
+
+.yellowRectangle p {
+  margin: 10px;
+  width: 60%;
+  position: relative;
+  left: -15%;
+  font-family: "graphicregular";
+}
+
+.groupEmployeeDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#burger {
+  width: 30%;
+  z-index: 1;
+  position: relative;
+  top: -38%;
+  left: -30%;
+}
+
+@media screen and (max-width: 1330px) {
+  #yellowCircle {
+    position: absolute;
+    left: 8%;
+    top: 82%;
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1330px) and (max-width: 1350px) {
+  #yellowCircle {
+    position: absolute;
+    left: 8%;
+    top: 79%;
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 1350px) and (max-width: 1550px) {
+  #yellowCircle {
+    position: absolute;
+    left: 8%;
+    top: 78%;
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1550px) and (max-width: 1600px) {
+  #yellowCircle {
+    position: absolute;
+    left: 8%;
+    top: 78%;
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #yellowCircle {
+    position: absolute;
+    left: 8%;
+    top: 78%;
+    width: 20%;
+  }
+}
+
+#employeetext {
+  width: 90%;
+  position: relative;
+  top: -30%;
+  left: 1%;
+}
+
+.sunwithrays {
+  position: absolute;
+  right: 0;
+  width: 20%;
+  top: 60%;
+  left: 60%;
+}
+
+@media screen and (max-width: 1400px) {
+  .sunwithraystext {
+    position: absolute;
+    width: 12%;
+    top: 67%;
+    left: 64%;
+    font-size: 15px;
+    text-align: center;
+    font-family: "graphicregular";
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1550px) {
+  .sunwithraystext {
+    position: absolute;
+    width: 12%;
+    top: 70%;
+    left: 64%;
+    font-size: 15px;
+    text-align: center;
+    font-family: "graphicregular";
+  }
+}
+@media screen and (min-width: 1550px) and (max-width: 1600px) {
+  .sunwithraystext {
+    position: absolute;
+    width: 12%;
+    top: 71%;
+    left: 64%;
+    font-size: 15px;
+    text-align: center;
+    font-family: "graphicregular";
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1650px) {
+  .sunwithraystext {
+    position: absolute;
+    width: 12%;
+    top: 72%;
+    left: 64%;
+    font-size: 15px;
+    text-align: center;
+    font-family: "graphicregular";
+  }
+}
+@media screen and (min-width: 1650px) {
+  .sunwithraystext {
+    position: absolute;
+    width: 12%;
+    top: 73%;
+    left: 64%;
+    font-size: 15px;
+    text-align: center;
+    font-family: "graphicregular";
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  position: relative;
+  top: 25%;
+  left: 0%;
+}
+
+@media screen and (max-width: 1550px) {
+  .astronaut {
+    width: 70%;
+    float: right;
+    position: relative;
+    top: 25%;
+    left: 5%;
+  }
+}
+@media screen and (min-width: 1550px) and (max-width: 1600px) {
+  .astronaut {
+    width: 70%;
+    float: right;
+    position: relative;
+    top: 25%;
+    left: 13%;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1650px) {
+  .astronaut {
+    width: 70%;
+    float: right;
+    position: relative;
+    top: 25%;
+    left: 20%;
+  }
+}
+@media screen and (min-width: 1650px) {
+  .astronaut {
+    width: 70%;
+    float: right;
+    position: relative;
+    top: 25%;
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .celebration {
+    position: absolute;
+    right: 0;
+    width: 10%;
+    top: 85%;
+    left: 55%;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+  .celebration {
+    position: absolute;
+    right: 0;
+    width: 10%;
+    top: 87%;
+    left: 55%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .celebration {
+    position: absolute;
+    right: 0;
+    width: 10%;
+    top: 90%;
+    left: 55%;
+  }
+}
+
+.monuments {
+  position: absolute;
+  top: 108%;
+  left: 35%;
+}
+
+.background {
+  background-image: url("../images/Rectangle.png");
+  background-size: cover;
+  /* height: 100vh; */
+}
+
+.year {
+  background-image: url("../images/Group207.svg");
+  background-size: "100%";
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 5rem;
+  position: relative;
+  top: 10px;
+  left: -4%;
+}
+
+.tape {
+  position: relative;
+  top: -12%;
+  left: 80%;
+}
+
+@media screen and (max-width: 1550px) {
+  .mumbai {
+    background-image: url("../images/Path502.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 1.5em;
+    position: relative;
+    left: -1%;
+    top: -2rem;
+  }
+}
+
+@media screen and (min-width: 1550px) and (max-width: 1600px) {
+  .mumbai {
+    background-image: url("../images/Path502.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 1.5em;
+    position: relative;
+    left: -1%;
+    top: -3rem;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1650px) {
+  .mumbai {
+    background-image: url("../images/Path502.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 1.5em;
+    position: relative;
+    left: -1%;
+    top: -4rem;
+  }
+}
+@media screen and (min-width: 1650px) {
+  .mumbai {
+    background-image: url("../images/Path502.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 1.5em;
+    position: relative;
+    left: -1%;
+    top: -5rem;
+  }
+}
+
+.dashedline {
+  background-image: url("../images/Path2923.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  padding: 10px;
+}
+
+.path {
+  background-image: url("../images/Path2922.svg"), url("../images/Path2921.svg");
+  background-repeat: no-repeat;
+  background-size: cover, cover;
+  background-position: cover, left top;
+  height: auto;
+  float: right;
+  right: 0;
+  top: 20%;
+  margin-right: 2rem;
+  margin: "20rem";
+  width: 20%;
+  position: absolute;
+  z-index: 2;
+}
+
+.yellowRectangle {
+  background-image: url("../images/Rectangle68.svg");
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  padding: 10;
+}
+
+.sun {
+  background-image: url("../images/Rectangle67.svg");
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-position: center, right;
+  display: flex;
+  width: 20%;
+  z-index: 2;
+}
