@@ -16,7 +16,7 @@ export default function CoorporateLeaderShip() {
         >
           <div className="yearDiv1">
             <div className="year1">
-              <img className="tape1" src={GROUP208}></img>
+              <img alt="" className="tape1" src={GROUP208}/>
               <span className="yearStyle1">2001 :</span>
             </div>
             <div className="yearColumnText1">
@@ -30,16 +30,16 @@ export default function CoorporateLeaderShip() {
             </div>
           </div>
           <div className="gatewayofIndiaDiv1">
-            <img id="firstImage1" src={GROUP240}></img>
-            <img id="secondImage1" src={RECTANGLE70}></img>
+            <img alt="" id="firstImage1" src={GROUP240}/>
+            <img alt="" id="secondImage1" src={RECTANGLE70}/>
           </div>
         </div>
         <div className="mumbai1">
-          <img style={{ width: "30%" }} src={GROUP211}></img>
+          <img alt="" style={{ width: "30%" }} src={GROUP211}/>
         </div>
         <div className="belowMumabiRectangle1" style={{}}>
           <div style={{display:'flex', alignItems:'center' ,justifyContent:'center', width:'80%'}}>
-            <img className="hee" src={USER2}></img>
+            <img alt="" className="hee" src={USER2}/>
 
             <p className="yellowRectangle1">
               At that time it was known as India Solution Center (ISC). One
@@ -51,19 +51,19 @@ export default function CoorporateLeaderShip() {
             </p>
           </div>
         </div>
-        <img className="bigcircleimage1" src={GROUP203}></img>
+        <img alt="" className="bigcircleimage1" src={GROUP203}/>
         <div style={{ display: "flex",justifyContent:'flex-start',gap:'3rem' }}>
             <div style={{width:"130px",height:'auto'}}>
-            <img className="groupEmployees1" src={GROUP205}></img>
+            <img alt="" className="groupEmployees1" src={GROUP205} />
             </div>
             <div className="groupEmployeeText1" style={{width:"60%"}}>
                 <p >
                 It almost felt like running a startup! And Accenture's culture of "do what it takes to get things done" was wrought in that fire. Our immediate goal was to ramp up to 500 pax. And since then to an overwhelming number of 1,80,000 - contributing to the growth of Accenture has been an overwhelming and enriching experience.
                 </p>
             </div>
-                  <img id="burger1" className="floating" src={GROUP212}></img>
+                  <img alt="" id="burger1" className="floating" src={GROUP212}/>
 
-                  <img id="yellowCircle1" src={ELLIPSE15}></img>
+                  <img alt="" id="yellowCircle1" src={ELLIPSE15}/>
                 
                 </div>
       </div>
@@ -71,9 +71,9 @@ export default function CoorporateLeaderShip() {
         <div className="rightContainer" >
             <div className="bhavinMehta">
                 <div className="image1">
-                  <img src={BHAVIN} style={{width:"100%"}}></img>
-                  <img className="bhavinWhiteCirlce" src={ELLIPSE75} ></img>
-                  <img className="bhavinYellowCircle" src={ELLIPSE67}></img>
+                  <img alt="" src={BHAVIN} style={{width:"100%"}}/>
+                  <img alt="" className="bhavinWhiteCirlce" src={ELLIPSE75} />
+                  <img alt="" className="bhavinYellowCircle" src={ELLIPSE67}/>
                 </div>
                 <div className="text1">
                   <p>
@@ -89,16 +89,16 @@ export default function CoorporateLeaderShip() {
                   <p>I was the 36th employee of ATCI. We started work in MDC1 which was basically a shopfloor and within a year we were all sent to U.S. and U.K. for projects and transition. We used to take everything as a challenge. Even senior people like Ramnath et al used to roll up their sleeves and get their hands dirty to run projects.</p>
                 </div>
                 <div className="image2">
-                  <img src={BALAJI} style={{width:"100%"}}></img>
-                  <img className="balajiWhiteCircle" src={ELLIPSE75} ></img>
-                  <img className="balajiYellowCircle" src={ELLIPSE67}></img>
+                  <img alt="" src={BALAJI} style={{width:"100%"}}/>
+                  <img alt="" className="balajiWhiteCircle" src={ELLIPSE75} />
+                  <img alt="" className="balajiYellowCircle" src={ELLIPSE67}/>
                 </div>
             </div>
             <div className="anil">
                 <div className="image3">
-                  <img src={BALAJI} style={{width:"100%"}} alt=''/>
-                  <img className="anilWhiteCircle" src={ELLIPSE75} ></img>
-                  <img className="anilYellowCircle" src={ELLIPSE67}></img>
+                  <img alt="" src={BALAJI} style={{width:"100%"}} />
+                  <img alt="" className="anilWhiteCircle" src={ELLIPSE75} />
+                  <img alt="" className="anilYellowCircle" src={ELLIPSE67}/>
                 </div>
                 <div className="text3">
                   <p>Anil Jadav</p>

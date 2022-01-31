@@ -2,9 +2,7 @@ import React from 'react';
 import HTMLFlipBook from 'react-pageflip';
 
 import './App.css';
-import AppRoute from '../routes/AppRoutes';
 import Information from '../Components/Information';
-import BackCoverPage from '../Components/BackCoverPage';
 import CoorporateStory from '../Components/CoorporateStory';
 import CoorporateLeaderShip from '../Components/CoorporateLeaderShip'
 import {useWindowDimensions} from '../Components/useDimension'
@@ -18,7 +16,7 @@ const Page = React.forwardRef((props, ref) => {
 });
 
 function App() {
-  const { height, width } = useWindowDimensions();
+  const {  width } = useWindowDimensions();
   return (
     <div className="App">
       {/* <AppRoute /> */}
